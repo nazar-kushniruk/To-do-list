@@ -1,0 +1,67 @@
+.container {
+    background-color: azure;
+    margin: 0 auto;
+   /*text-align: midlle;*/
+
+}
+.list {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    background-color: antiquewhite;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+}
+.list-item{
+    position: relative;
+    height: 30px;
+    background-color: burlywood;
+    border-radius: 5px;
+    border: 1px solid burlywood;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.x {
+    position: absolute;
+    right: 10px;
+    color: red;
+    cursor: pointer;
+}
+#task-form{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    border: 1px solid cornsilk;
+    border-radius: 5px;
+}
+
+input[type=text]{
+
+    background-color: antiquewhite;
+    border: unset;
+    border-bottom: 2px solid silver;
+    margin-bottom: 10px;
+}
+label {
+    position: absolute;
+    top: -2px;
+    left: 10px;
+
+}
+.button {
+    width: 70px;
+    text-align: center;
+  background-color: greenyellow;
+    align-self: center;
+}
+.filter-label-container{
+    position: relative;
+
+}
+.filter-label{
+    top: -33px;
+    left: 10px;
+}
