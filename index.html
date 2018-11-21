@@ -8,26 +8,29 @@
 <body>
 <div class="container">
 
-    <div class="list">
+
         <h4>TO DO LIST</h4>
         <form action="" id="task-form" >
             <input type="text" id="task" name="task">
             <label for="task" >Add task</label>
             <input type="submit" class="button" value="Add task">
         </form>
+    <div class="list">
         <div class="list-item">One
             <span class="x">x</span></div>
         <div class="list-item">Two <span class="x">x</span></div>
         <div class="list-item">Three <span class="x">x</span></div>
-        
+    </div>
       
         <input type="text" id="filter" name="filter">
         <div class="filter-label-container">
         <label for="filter" class="filter-label" >Filter</label>
+
         </div>
-    </div>
-    <hr/>
-    <a href="#" class="clear-tasks">Delete</a>
+        <button href="#" class="button clear-tasks ">Delete</button>
+
+<hr/>
+
 </div>
 <script src="app.js"></script>
 </body>
