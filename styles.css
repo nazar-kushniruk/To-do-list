@@ -1,9 +1,11 @@
 .container {
-    background-color: azure;
+    width: 300px;
+    background-color: #e8efef;
     margin: 0 auto;
     display: flex;
     align-items: center;
     flex-direction: column;
+    padding: 10px;
     /*text-align: midlle;*/
 
 }
@@ -11,22 +13,24 @@
 .list {
     display: flex;
     flex-direction: column;
-    width: 300px;
-    background-color: antiquewhite;
+    width: 100%;
+    background-color: #e8efef;
     padding: 10px;
     text-align: center;
     position: relative;
+    margin-top: 20px;
 }
 
 .list-item {
+    width: 100%;
     position: relative;
     height: 30px;
-    background-color: burlywood;
+    background-color: #777c7c;
     border-radius: 5px;
-    border: 1px solid burlywood;
+ //   border: 1px solid burlywood;
     margin-top: 10px;
     margin-bottom: 10px;
-    padding: 5px;
+
 }
 
 .x {
@@ -37,25 +41,28 @@
 }
 
 #task-form {
+    width: 100%;
     display: flex;
     flex-direction: column;
     position: relative;
-    border: 1px solid cornsilk;
-    border-radius: 5px;
+   // border: 1px solid cornsilk;
+   // border-radius: 5px;
 }
 
 #task:focus + label{
 
     top: -17px;
     left: 10px;
+    font-size:14px;
 }
 
 #filter:focus + .filter-label-container >label {
     top: -47px;
+    font-size:14px;
 }
 input[type=text] {
 
-    background-color: antiquewhite;
+    background-color: #e8efef;
     border: unset;
     border-bottom: 2px solid silver;
     margin-bottom: 10px;
@@ -71,25 +78,30 @@ label {
 .button {
     width: 70px;
     text-align: center;
-    background-color: greenyellow;
+    background-color: #bec4c4;
     align-self: center;
+    height: 25px;
+    border-radius: 10%;
 }
 
 #filter {
     margin-top: 20px;
+    width: 100%;
 }
 .filter-label-container {
     position: relative;
+    align-self: flex-start;
 
 }
 
 .filter-label {
     top: -33px;
-    left: 10px;
+
 }
 
 .clear-tasks {
     background-color: black;
     color: white;
-    border-radius: 7%;
+    border-radius: 10%;
+    align-self: flex-start;
 }
